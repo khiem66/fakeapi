@@ -1,0 +1,55 @@
+/* ItemProducts.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #f8f9fa; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .card h1 {
+    font-size: 24px;
+    color: #343a40; /* Dark gray for contrast */
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    color: #007bff; /* Bootstrap blue for price */
+    margin-bottom: 15px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #6c757d; /* Muted gray for stock information */
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+      max-width: 90%;
+    }
+  }
+  
